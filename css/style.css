@@ -1,15 +1,72 @@
+/* Typsnitt */
+@import 'https://fonts.googleapis.com/css?family=Baloo+Chettan|Indie+Flower|Lato';
+
+/* Färger */
+/* Main Primary color */
+.color-primary-0 { color: #6363BD }
+.color-primary-1 { color: #BBBBEC }
+.color-primary-2 { color: #8B8BD6 }
+.color-primary-3 { color: #4646A7 }
+.color-primary-4 { color: #2A2A98 }
+
+/* Bakgrundsbilder */
 section:nth-of-type(1) {
-    background: url('https://unsplash.it/1910/1221?image=625') no-repeat center / cover;
+    background: url("../images/foggyheights.jpg") no-repeat center / cover;
 }
 section:nth-of-type(2) {
-    background: url('https://unsplash.it/1910/1221?image=625') no-repeat center / cover;
+    background: url("../images/forest.jpg") no-repeat center / cover;
 }
 section:nth-of-type(3) {
-    background: url('https://unsplash.it/1910/1221?image=625') no-repeat center / cover;
+    background: url("../images/raspberry.jpg") no-repeat center / cover;
 }
 section:nth-of-type(4) {
-    background: url('https://unsplash.it/1910/1221?image=625') no-repeat center / cover;
+    background: url("../images/treeup.jpg") no-repeat center / cover;
 }
 section:nth-of-type(5) {
-    background: url('https://unsplash.it/1910/1221?image=625') no-repeat center / cover;
+    background: url("../images/snowtain.jpg") no-repeat center / cover;
+}
+
+/* Ändra typsnitt */
+h1 a {
+    font: 36px 'Baloo Chettan', cursive;
+    padding-top: 10px;
+}
+
+h2 {
+    font: 36px 'Indie Flower', cursive;
+}
+
+p {
+    font: 36px 'Lato', cursive;
+}
+
+/* Ändra menyns färger */
+
+.header-top {
+    background: rgba(42, 42, 152, .3);
+    height: 70px;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+    box-sizing: border-box;
+}
+
+nav li:nth-child(odd) a,
+body.fp-viewing-fifthSection-1 #menu li:nth-child(5) a {
+    background: #4646a7;
+}
+nav li:nth-child(even) a {
+    background: #6363bd;
+}
+nav li:nth-child(odd) a:hover {
+    background: #bbbbec;
+}
+nav li:nth-child(even) a:hover {
+    background: #8b8bd6;
+}
+nav li.active a,
+body.fp-viewing-fifthSection-1 #menu li:last-child a {
+    background: #2a2a98;
 }

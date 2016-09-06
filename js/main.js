@@ -35,7 +35,7 @@ $(document).ready(function () {
             }
         },
 
-        afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+        /* afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
             if (anchorLink == 'fifthSection' && slideIndex == 1) {
                 $.fn.fullpage.setAllowScrolling(false, 'up');
                 $header_top.css('background', 'transparent');
@@ -49,7 +49,7 @@ $(document).ready(function () {
                     'transform': 'translateY(0)'
                 });
             }
-        },
+        }, */
 
         onSlideLeave: function (anchorLink, index, slideIndex, direction) {
             if (anchorLink == 'fifthSection' && slideIndex == 1) {

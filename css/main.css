@@ -32,7 +32,21 @@
     -webkit-transition: color .3s;
     transition: color .3s;
 }
+.icon-down-open-big:after {
+    padding-top: 13px;
+    content: "a";
+    font-size: 2.5em;
+    display: block;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    color: black;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}
 .icon-up-open-big:hover:after {
+    color: white;
+}
+.icon-down-open-big:hover:after {
     color: white;
 }
 .scroll-icon {
